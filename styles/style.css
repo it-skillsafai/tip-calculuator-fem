@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 *,
 *::after,
 *::before {
@@ -13,30 +12,16 @@ html {
   font-size: 16px;
 }
 :root {
-  --clr-seaweed: #177e89;
-  --clr-green: #084c61;
-  --clr-red: #db3a34;
-  --clr--yellow: #ffc857;
-  --clr-jet: #323031;
-  --clr-white: #fffafa;
-  --clr-black: #383838;
-  --box-shadow: 0px 22px 12px rgba(0, 0, 0, 0.15);
+  --clr-strong-cyan: hsl(172, 67%, 45%);
+  --clr-very-dark-cyan: hsl(183, 100%, 15%);
+  --clr-dark-grayish-cyan: hsl(186, 14%, 43%);
+  --clr-grayish-cyan: hsl(184, 14%, 56%);
+  --clr-light-grayish-cyan: hsl(185, 41%, 84%);
+  --clr-very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --clr-White: hsl(0, 0%, 100%);
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Mono', monospace;
   background-color: var(--clr-white);
-}
-
-/* global css */
-img {
-  width: 100%;
-  height: auto;
-}
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
 }
